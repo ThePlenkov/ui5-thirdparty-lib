@@ -1,0 +1,10 @@
+{
+  "name": "com.thirdparty.lib.modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1"
+  }
+}
