@@ -1,0 +1,42 @@
+{
+    "_version": "1.6.0",
+    "sap.app": {
+        "_version": "1.2.0",
+        "id": "com.ui.thirdparty",
+        "type": "library",
+        "embeds": [
+            "lodash",
+            "moment"
+        ],
+        "applicationVersion": {
+            "version": "1.38.7"
+        },
+        "title": "{{title}}",
+        "resources": "resources.json",
+        "offline": true
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "technology": "UI5",
+        "supportedThemes": [
+            "base",
+            "sap_belize",
+            "sap_belize_plus",
+            "sap_bluecrystal",
+            "sap_hcb"
+        ],
+        "deviceTypes": {
+            "desktop": false,
+            "tablet": false,
+            "phone": false
+        }
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "dependencies": {},
+        "contentDensities": {
+            "compact": false,
+            "cozy": false
+        }
+    }
+}
